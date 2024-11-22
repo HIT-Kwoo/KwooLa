@@ -52,7 +52,7 @@ KwooLa收集了百度百科、种业商务网、《中国农作物病虫害》�
 
 
 <div align="center">
-<img src=src="./image/数据.png" width="100%" ></img> 
+<img src="./image/数据.png" width="100%" ></img> 
 </div>
 
 为避免模型灾难性遗忘，同时提升其领域多轮对话能力，**KwooLa使用Chat-GPT-4o-mini自动化构造了20万轮多轮农业对话数据，并混合农业领域单轮、通用领域单轮、农业领域多轮、通用领域多轮进行训练**。
@@ -64,15 +64,15 @@ KwooLa收集了百度百科、种业商务网、《中国农作物病虫害》�
 为对比框架有效性，我们将上述知识注入架构广泛迁移到现有开源和闭源模型如百川、ChatGLM3、Llama2、Qwen1.5、ChatGPT3.5等，实验结果表明我们所提方法在回复生成流畅性、准确性、真实性、领域忠诚度方面都有明显提升，达到sota。
 
 <div align="center">
-<img src=src="./image/模型对比.png" width="80%" ></img> 
+<img src="./image/模型对比.png" width="80%" ></img> 
 </div>
 
 <div align="center">
-<img src=src="./image/04_2_human_evaluate_on_model_zh(1).svg" width="90%" ></img> 
+<img src="./image/04_2_human_evaluate_on_model_zh(1).svg" width="90%" ></img> 
 </div>
 
 <div align="center">
-<img src=src="./image/对比.png" width="80%" ></img> 
+<img src="./image/对比.png" width="80%" ></img> 
 </div>
 
 ### API调用
@@ -128,12 +128,12 @@ wscat -c "wss://api.tgkwai.com/api/v1/qamodel/session?x-token=sk-xxxx&session_id
 使用方法：第一步，打开APP，输入**邀请码(8t6nwq)** 进入登录页面，随后切换到“密码登录”页面输入账号、密码并勾选同意协议选项进行登录。第二步，登录后进入问答页面，在下方输入框中输入想要询问的问题，等待回答。
 
 <div align="center">
-<img src=src="./image/下载.png" width="50%" ></img> 
+<img src="./image/下载.png" width="50%" ></img> 
 </div>
 
 ### 致谢
 
 我们的工作受到以下工作的启发，在此对项目成员表示诚挚的感谢。
 
-- [BGE]()
+- [BGE](https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/BGE_M3)
 - [Focus Learning]()
