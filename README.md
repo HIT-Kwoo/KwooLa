@@ -5,7 +5,7 @@
 ## 天工开悟-农业问答大模型(KwooLa)
 
 
-**天工不遗，以配万物；开悟不止，以成百谷。**
+<天工不遗，以配万物；开悟不止，以成百谷。>
 
 
 ### :fire::fire:News
@@ -119,7 +119,7 @@ wscat -c "wss://api.tgkwai.com/api/v1/qamodel/session?x-token=sk-xxxx&session_id
 
 ### 项目参与者
 
-本项目参与成员：[闫莲](https://github.com/YanPioneer?tab=repositories) 、[夏振博](https://github.com/1190201219) 、[刘海峰]()、[殷颢瑄](https://github.com/greenjerry) 、[王松源](https://github.com/hit-wsy) 。
+本项目参与成员：[闫莲](https://github.com/YanPioneer?tab=repositories) 、[夏振博](https://github.com/1190201219) 、[刘海峰](https://github.com/GodeCAt)、[殷颢瑄](https://github.com/greenjerry) 、[王松源](https://github.com/hit-wsy) 。
 
 指导老师：[刘劼]() 教授、[姜京池](https://homepage.hit.edu.cn/jiangjingchi) 副教授、[杨洋](https://ai.cust.edu.cn/szdw/zrjs/3f60de2fb4634ee189b2cb9ce84a2d98.htm) 副教授以及[关毅](https://homepage.hit.edu.cn/guanyi) 教授。
 
