@@ -79,7 +79,7 @@ KwooLa收集了百度百科、种业商务网、《中国农作物病虫害》�
 
 #### 获取访问密钥
 
-登录https://www.tgkwai.com/获取`acces token`。
+登录https://www.tgkwai.com/ 获取`acces token`。
 
 #### 创建链接
 
