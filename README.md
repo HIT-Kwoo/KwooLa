@@ -84,6 +84,16 @@ KwooLa收集了百度百科、种业商务网、《中国农作物病虫害》�
 
 登录https://www.tgkwai.com/ 获取`acces token`。
 
+#### API调用方式
+
+请点击以下链接查看详细api文档
+
+* [OpenAI兼容API](KwooLa-API使用指南-OpenAI兼容API.md)
+* [WebSocket方式](KwooLa-API使用指南.md)
+* [Websocket方式-python-demo](KwooLa_api_demo.py)
+
+以下展示WebSocket方式的简易调用方式
+
 #### 创建链接
 
 使用WebSocket创建对话链接，`session_id`是会话号（建议一次对话使用一个session_id）。
@@ -116,23 +126,24 @@ wscat -c "wss://api.tgkwai.com/api/v1/qamodel/session?x-token=sk-xxxx&session_id
 }
 ```
 
-[API详细说明文档](KwooLa-API使用指南.md)
-
 ### 项目参与者
 
 本项目参与成员：[闫莲](https://github.com/YanPioneer?tab=repositories) 、[夏振博](https://github.com/1190201219) 、[刘海峰](https://github.com/GodeCAt)、[殷颢瑄](https://github.com/greenjerry) 、[王松源](https://github.com/hit-wsy) 、[孙天阳]()、[王扬帆]()、[程龙]()。
 
 指导老师：[刘劼]() 教授、[姜京池](https://homepage.hit.edu.cn/jiangjingchi) 副教授、[杨洋](https://ai.cust.edu.cn/szdw/zrjs/3f60de2fb4634ee189b2cb9ce84a2d98.htm) 副教授以及[关毅](https://homepage.hit.edu.cn/guanyi) 教授。
 
-### 天工开悟APP (Android版)
+### 天工开悟APP
 
-欢迎大家扫描下方二维码下载**天工开悟APP**进行体验:sparkles::sparkles:。
+欢迎大家扫描下方二维码下载**天工开悟APP**（Android版）进行体验:sparkles::sparkles:。
 
-使用方法：第一步，打开APP，输入**邀请码(8t6nwq)** 进入登录页面，随后切换到“密码登录”页面输入账号、密码并勾选同意协议选项进行登录。第二步，登录后进入问答页面，在下方输入框中输入想要询问的问题，等待回答。
+iOS用户请在AppStore中搜索“天工开悟”下载使用，点击跳转到AppStore](https://apps.apple.com/cn/app/%E5%A4%A9%E5%B7%A5%E5%BC%80%E6%82%9F/id6738081283)
+
+使用方法：第一步，打开APP，进入登录页面，勾选同意协议选项后使用手机号进行登录。第二步，登录后进入问答页面，在下方输入框中输入想要询问的问题，等待回答。
 
 <div align="center">
-<img src="./image/下载.png" width="50%" ></img> 
+<img src="./image/下载.png" width="30%" ></img> 
 </div>
+
 
 ### 致谢
 
