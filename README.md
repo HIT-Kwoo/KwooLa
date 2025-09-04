@@ -11,14 +11,40 @@
 
 ### :fire::fire:News
 
-- [2025/07/06] :bar_chart::file_folder: **(测试功能，即将上线) 新增表格理解能力**，模型新增对电子表格及数据文件的理解能力，允许用户上传CSV、XLS、XLSX、SQL等格式文件，直接进行数据解析和智能问答。
+- [2025/09/03] :card_file_box::chart_with_upwards_trend: **(测试功能，即将上线) 新增SQL数据库理解能力**，模型进一步扩展数据处理范围，支持连接SQL数据库或上传SQL文件，通过自然语言完成复杂的查询、数据分析与报告生成。
+
+- [2025/07/06] :bar_chart::file_folder: **(测试功能，即将上线) 新增表格理解能力**，模型新增对电子表格文件的理解能力，允许用户上传CSV、XLS、XLSX等格式文件，结合表格进行数据解析和智能问答。
+
 - [2025/06/19] :brain::crystal_ball: **(测试功能，即将上线) 新增深度思考能力**，引入深度思考（Deep Thinking）模块，显著增强了模型在复杂问题上的逻辑推理和规划能力，模型综合能力进一步提升。
+
 - [2025/04/09] :speech_balloon::globe_with_meridians: **上线多轮对话与联网检索功能**，模型现已支持多轮对话，能够更好地理解上下文语境；同时集成联网检索功能，确保信息获取的实时性与准确性，为用户提供更全面、更新的决策支持。
-- [2025/03/20] :boom::boom:**推出了OpenAI兼容API调用方式**，开发者和企业用户可以轻松集成KwooLa到绝大多数平台。
-- [2025/03/12] :iphone::rocket:**“天工开悟”iOS应用正式上架App Store**，iPhone和iPad用户现在可以随时随地体验KwooLa的专业农业问答服务。 [点击下载](https://apps.apple.com/cn/app/%E5%A4%A9%E5%B7%A5%E5%BC%80%E6%82%9F/id6738081283)
-- [2024/11/20] :boom::boom:**推出API访问方式并支持流式输出**，开发者和企业用户可以轻松集成KwooLa的强大功能，实现更高效、更实时的交互体验，全面赋能农业领域的智能化升级，助力打造多样化、定制化的智慧农业解决方案。
-- [2024/11/20] :star2::star2:**更新了KwooLa的APP使用教程和测试用例**，让用户能够快速上手，充分体验KwooLa在农业生产中的高效性与便捷性，推动智能农业的普及和落地。
-- [2024/11/02] :rose::rose:**发布了KwooLa**，面向大田作物种植咨询、种植作物推荐、种植全流程管理、病虫草害诊断与防治等农事场景，能够为农业从业人员提供信息丰富、精准度高、可操作性强、农业知识对齐的决策指导！支持[Web端](https://www.tgkwai.com/) 、Android端APP访问(下载APP请点击[这里](#天工开悟app))。
+
+- [2025/03/20] :boom::boom: **推出了OpenAI兼容API调用方式**，开发者和企业用户可以轻松集成KwooLa到绝大多数平台。
+
+- [2025/03/12] :iphone::rocket: **“天工开悟”iOS应用正式上架App Store**，iPhone用户现在可以随时随地体验KwooLa的专业农业问答服务。 [点击下载](https://apps.apple.com/cn/app/%E5%A4%A9%E5%B7%A5%E5%BC%80%E6%82%9F/id6738081283)
+
+- [2024/11/20] :boom::boom: **推出API访问方式并支持流式输出**，开发者和企业用户可以轻松集成KwooLa的强大功能，实现更高效、更实时的交互体验，全面赋能农业领域的智能化升级，助力打造多样化、定制化的智慧农业解决方案。
+
+- [2024/11/20] :star2::star2: **更新了KwooLa的APP使用教程和测试用例**，让用户能够快速上手，充分体验KwooLa在农业生产中的高效性与便捷性，推动智能农业的普及和落地。
+
+- [2024/11/02] :rose::rose: **发布了KwooLa**，面向大田作物种植咨询、种植作物推荐、种植全流程管理、病虫草害诊断与防治等农事场景，能够为农业从业人员提供信息丰富、精准度高、可操作性强、农业知识对齐的决策指导！支持[Web端](https://www.tgkwai.com/) 、Android端APP访问(下载APP请点击[这里](#天工开悟app))。
+
+    
+
+
+### 天工开悟APP
+
+欢迎大家体验**天工开悟APP** :sparkles::sparkles:。
+
+*   **Android用户**：请扫描下方二维码下载安装，或[点击此处直接跳转](https://www.tgkwai.com/download.html)。
+*   **iOS用户**：请在App Store中搜索“天工开悟”下载，或[点击此处直接跳转](https://apps.apple.com/cn/app/%E5%A4%A9%E5%B7%A5%E5%BC%80%E6%82%9F/id6738081283)。
+*   **Web网页**：请访问https://www.tgkwai.com/，点击“开始使用”
+
+使用方法：第一步，打开APP，进入登录页面，勾选同意协议选项后使用手机号进行登录。第二步，登录后进入问答页面，在下方输入框中输入想要询问的问题，等待回答。
+
+<div align="center">
+<img src="./image/下载.png" width="30%" ></img> 
+</div>
 
 ### 模型简介
 
@@ -136,19 +162,6 @@ wscat -c "wss://api.tgkwai.com/api/v1/qamodel/session?x-token=sk-xxxx&session_id
 本项目参与成员：[闫莲](https://github.com/YanPioneer?tab=repositories) 、[夏振博](https://github.com/1190201219) 、[刘海峰](https://github.com/GodeCAt)、[殷颢瑄](https://github.com/greenjerry) 、[王松源](https://github.com/hit-wsy) 、[孙天阳]()、[王扬帆]()、[程龙]()。
 
 指导老师：[刘劼]() 教授、[姜京池](https://homepage.hit.edu.cn/jiangjingchi) 副教授、[杨洋](https://ai.cust.edu.cn/szdw/zrjs/3f60de2fb4634ee189b2cb9ce84a2d98.htm) 副教授以及[关毅](https://homepage.hit.edu.cn/guanyi) 教授。
-
-### 天工开悟APP
-
-欢迎大家体验**天工开悟APP** :sparkles::sparkles:。
-
-*   **Android用户**：请扫描下方二维码下载安装。
-*   **iOS用户**：请在App Store中搜索“天工开悟”下载，或[点击此处直接跳转](https://apps.apple.com/cn/app/%E5%A4%A9%E5%B7%A5%E5%BC%80%E6%82%9F/id6738081283)。
-
-使用方法：第一步，打开APP，进入登录页面，勾选同意协议选项后使用手机号进行登录。第二步，登录后进入问答页面，在下方输入框中输入想要询问的问题，等待回答。
-
-<div align="center">
-<img src="./image/下载.png" width="30%" ></img> 
-</div>
 
 
 ### 致谢
