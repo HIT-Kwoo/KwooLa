@@ -133,9 +133,11 @@ KwooLa 收集了百度百科、种业商务网、《中国农作物病虫害》�
 
 请点击以下链接查看详细 api 文档
 
+WebSocket 方式支持文本、图像、电子表格、数据库等所有能力；OpenAI 兼容 API 方式目前仅支持文本和图像能力，暂不支持上传电子表格、数据库等附件。
+
 - [OpenAI 兼容 API](KwooLa-API使用指南-OpenAI兼容API.md)
 - [WebSocket 方式](KwooLa-API使用指南.md)
-- [Websocket 方式-python-demo](KwooLa_api_demo.py)
+- [WebSocket 方式-python-demo](KwooLa_api_demo.py)
 
 以下展示 WebSocket 方式的简易调用方式
 
